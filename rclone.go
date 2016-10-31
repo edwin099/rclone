@@ -1,6 +1,7 @@
 // Sync files and directories to and from local and remote object stores
 //
 // Nick Craig-Wood <nick@craig-wood.com>
+heroku buildpacks:set heroku/go
 package main
 
 import (
